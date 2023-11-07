@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>calendar</title>
+        <style>
+            .all{
+                width: 100%;
+            }
+            #header{
+                text-align: center;
+                width: 100%;
+            }
+            .button{
+                text-align: center;
+                width: 100%;
+            }
+            .leftbutton{
+                margin: left 0; ;
+            }
+            .rightbutton{
+                text-align: right;
+            }
+            table{
+                margin:0 auto;
+                width:600px;
+                height:500px;
+                border-color: black;
+            }
+            tr{
+                padding-top: 0;
+            }
+            th{
+                text-align: center;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="all">
+            <h1 id="header"></h1>
+
+            <div class="button">
+                <button class="leftbutton" onclick="back()">＜</button>
+                <button class="rightbutton" onclick="go()">＞</button>
+            </div>
+            
+            <div id="body"></div>
+        </div>
+        
+        <script src="mission_5-k2.js"></script>
+    </body>
+</html>
